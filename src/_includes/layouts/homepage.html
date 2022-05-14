@@ -2,10 +2,201 @@
 layout: base
 ---
 
-<div class="hero">
-    <h2>{{hero.title }}</h2>
-</div>
+<section class="navigation">
+    <a href="../../index.md">
+        <div class="nav-logo">
+            <img src="../../assets/images/logo-black.png" alt="Logo">
+        </div>
+    </a>
 
-<div class="main-content">
-    {{ content }}
-</div>
+    <div class="nav-links">
+        <a href="../../"> {{ nav.linkone }} </a>
+        <a href="../../"> {{ nav.linktwo }} </a>
+        <a href="../../"> {{ nav.linkthree }} </a>
+    </div>
+</section>
+
+<section class="hero">
+    <div class="hero-left">
+        <h1> {{ hero.text }} </h1>
+        <div class="hero-left-bottom">
+            <a href="">
+                <div class="button">
+                    <p> {{ hero.button.first }} </p>
+                </div>
+            </a>
+            <a href="">
+                <div class="alternate-button">
+                    <p> {{ hero.button.second }} </p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="hero-right">
+        <img src="../../assets/" alt="Hero image">
+    </div>
+</section>
+
+<section class="colour-block">
+    <h2> {{ colourblock.heading }} </h2>
+    <p> {{ colourblock.para }} </p>
+</section>
+
+<section class="image-text-l">
+    <div class="image-text-l-left">
+        <img src="../../assets/" alt="">
+    </div>
+    <div class="image-text-l-right">
+        <h2> {{ image-text-l.heading }} </h2>
+        <p> {{ image-text-l.para }} </p>
+        <a href="">
+            <div class="button">
+                <p> {{ image-text-l.button }} </p>
+            </div>
+        </a>
+    </div>
+</section>
+
+<section class="centre-text">
+    <h4> {{ centre.smallheading }} </h4>
+    <h2> {{ centre.heading }} </h2>
+    <p> {{ centre.para }} </p>
+</section>
+
+<section class="card-section">
+    <div class="card">
+        <h3> {{ card.heading1 }} </h3>
+        <p> {{ card.para1 }} </p>
+    </div>
+    <div class="card">
+        <h3> {{ card.heading2 }} </h3>
+        <p> {{ card.para2 }} </p>
+    </div>
+    <div class="card">
+        <h3> {{ card.heading3 }} </h3>
+        <p> {{ card.para3 }} </p>
+    </div>
+    <div class="card">
+        <h3> {{ card.heading4 }} </h3>
+        <p> {{ card.para4 }} </p>
+    </div>
+    <div class="card">
+        <h3> {{ card.heading5 }} </h3>
+        <p> {{ card.para5 }} </p>
+    </div>
+    <div class="card">
+        <h3> {{ card.heading6 }} </h3>
+        <p> {{ card.para6 }} </p>
+    </div>
+    <div class="card">
+        <h3> {{ card.heading7 }} </h3>
+        <p> {{ card.para7 }} </p>
+    </div>
+    <div class="card">
+        <h3> {{ card.heading8 }} </h3>
+        <p> {{ card.para8 }} </p>
+    </div>
+</section>
+
+<section class="image-text-r">
+    <div class="image-text-r-left">
+        <h2> {{ image-text-r.heading }} </h2>
+        <p> {{ image-text-r.para }} </p>
+        <a href="">
+            <div class="button">
+                <p> {{ image-text-r.button }} </p>
+            </div>
+        </a>
+    </div>
+    <div class="image-text-r-right">
+        <img src="../../assets/" alt="">
+    </div>
+</section>
+
+<section class="circle-cards">
+    <div class="circle-left">
+        <div class="circle-card">
+            <img src="" alt="">
+            <h2> {{ circle-card.heading1 }} </h2>
+        </div>
+        <div class="circle-card">
+            <img src="" alt="">
+            <h2> {{ circle-card.heading2 }} </h2>
+        </div>
+        <div class="circle-card">
+            <img src="" alt="">
+            <h2> {{ circle-card.heading3 }} </h2>
+        </div>
+    </div>
+    <div class="circle-right">
+        <h4> {{ circle-right.smallheading }} </h4>
+        <h2> {{ circle-right.heading }} </h2>
+        <p> {{ circle-right.para }} </p>
+        <a href="">
+            <div class="button">
+                <p> {{ circle-right.button }} </p>
+            </div>
+        </a>
+    </div>
+</section>
+
+<section class="partners">
+    <div class="partner">
+        <img src="../../assets/images/" alt="">
+    </div>
+    <div class="partner">
+        <img src="../../assets/images/" alt="">
+    </div>
+    <div class="partner">
+        <img src="../../assets/images/" alt="">
+    </div>
+    <div class="partner">
+        <img src="../../assets/images/" alt="">
+    </div>
+    <div class="partner">
+        <img src="../../assets/images/" alt="">
+    </div>
+    <div class="partner">
+        <img src="../../assets/images/" alt="">
+    </div>
+    <div class="partner">
+        <img src="../../assets/images/" alt="">
+    </div>
+    <div class="partner">
+        <img src="../../assets/images/" alt="">
+    </div>
+    <div class="partner">
+        <img src="../../assets/images/" alt="">
+    </div>
+    <div class="partner">
+        <img src="../../assets/images/" alt="">
+    </div>
+</section>
+
+<section class="image-text-l-2">
+    <div class="image-text-l-left-2">
+        <h2> {{ image-text-l-2.heading }} </h2>
+        <p> {{ image-text-l-2.para }} </p>
+        <a href="">
+            <div class="button">
+                <p> {{ image-text-l-2.button }} </p>
+            </div>
+        </a>
+    </div>
+    <div class="image-text-l-right-2">
+        <img src="../../assets/" alt="">
+    </div>
+</section>
+
+<section class="book">
+    <div class="book-left">
+        <a href="">
+            <div class="button">
+                <p> {{ book.button }} </p>
+            </div>
+        </a>
+    </div>
+    <div class="book-right">
+        <h2> {{ book.text }} </h2>
+    </div>
+</section>

@@ -1,7 +1,32 @@
 <!-- The content in this file is inserted into the base.html file -->
 <footer>
-    <div class="inner-wrapper">
-        <p>This content is in the _footer.html file.</p>
-        <p>This page was made by Ben, you should update and remove this text. </p>
-    </div>
+    <section class="footer">
+        <div class="footer-left">
+            <div class="footer-logo">
+            <img src="../assets/images/logo-black.png" alt="">
+            </div>
+            <p> {{ footer.trademark }} </p>
+        </div>
+        <div class="footer-middle">
+            <h4> {{ footer-middle.heading }} </h4>
+            <a href="">
+                <p> {{ footer-middle.link1 }} </p>
+            </a>
+            <a href="">
+                <p> {{ footer-middle.link2 }} </p>
+            </a>
+        </div>
+        <div class="footer-right">
+            <h4> {{ footer-right.heading }} </h4>
+            <a href="">
+                <p> {{ footer-right.link1 }} </p>
+            </a>
+            <a href="">
+                <p> {{ footer-right.link2 }} </p>
+            </a>
+            <a href="">
+                <p> {{ footer-right.link3 }} </p>
+            </a>
+        </div>
+    </section>
 </footer>
