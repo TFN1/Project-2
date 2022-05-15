@@ -51,7 +51,7 @@ p {
     font-family: futura;
     border-radius: 20px;
     border: 1px solid #BC69A4;
-    padding: 0.6em 1.8em;
+    padding: 0.8em 1.8em;
     display: inline-block;
     text-align: center;
 }
@@ -66,7 +66,7 @@ p {
     color: #325682;
     border-radius: 20px;
     border: 1px solid #325682;
-    padding: 0.6em 1.8em;
+    padding: 0.8em 1.8em;
     display: inline-block;
     text-align: center;
 }
@@ -108,12 +108,17 @@ p {
     width: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.hero-left h1 {
+    width: 90%;
 }
 
 .hero-left-bottom {
     display: flex;
     flex-direction: row;
-    margin: 2em 0 0 0;
+    margin: 3em 0 0 0;
 }
 
 .hero-left-bottom .alternate-button {
@@ -122,6 +127,13 @@ p {
 
 .hero-right {
     width: 50%;
+}
+
+.hero-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .colour-block {
@@ -137,7 +149,7 @@ p {
     color: white;
     text-align: center;
     width: 60%;
-    margin: 0 0 0.6em 0;
+    margin: 0 0 0.8em 0;
 }
 
 .colour-block p {
@@ -149,22 +161,36 @@ p {
 .image-text-l {
     display: flex;
     flex-direction: row;
+    padding: 0;
+    margin: 4em 0 0 0;
 }
 
 .image-text-l-left {
     width: 50%;
+    max-height: 80vh;
+}
+
+.image-text-l-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .image-text-l-right {
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 10em 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-text-l-right-content {
+    width: 70%;
 }
 
 .image-text-l-right p {
     margin: 2em 0 0 0;
-    width: 80%;
 }
 
 .image-text-l-right .button {
@@ -181,6 +207,7 @@ p {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 8em 0 0 0;
 }
 
 .centre-text h2 {
@@ -193,27 +220,69 @@ p {
 
 .card-section {
     margin: 4em 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-column-left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 0 6em;
+}
+
+.card-column-right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 6em 0 0;
+}
+
+.card {
+    background-color: #325682;
+    margin: 0 0 4em 0;
+    width: 60%;
+    padding: 2em;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card h3 {
+    text-align: center;
+    color: white;
+}
+
+.card p {
+    text-align: center;
+    color: white;
+    margin: 1em 0 0 0;
 }
 
 .image-text-r {
     display: flex;
     flex-direction: row;
+    margin: 8em 0 0 0;
 }
 
 .image-text-r-left {
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 10em 0;
+    justify-content: center;
+    align-items: center;
 }
 
-.image-text-r-right {
-    width: 50%;
+.image-text-r-left-content {
+    width: 70%;
 }
 
 .image-text-r-left p {
     margin: 2em 0 0 0;
-    width: 80%;
 }
 
 .image-text-r-left .button {
@@ -225,21 +294,54 @@ p {
     width: auto;
 } 
 
+.image-text-r-right {
+    width: 50%;
+    max-height: 80vh;
+}
+
+.image-text-r-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
 .circle-cards {
     display: flex;
     flex-direction: row;
+    margin: 8em 0 0 0;
 }
 
 .circle-left {
     width: 50%;
 }
 
+.circle-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 2.4em 2em;
+}
+
+.circle-card h2 {
+    margin: 0 0 0 0.8em;
+}
+
+.circle-card img {
+    height: 16vh;
+    width: 16vh;
+    border-radius: 50%;
+}
+
 .circle-right {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .circle-right h4 {
-    margin: 0 0 2em 0;
+    margin: 0 0 0.2em 0;
 }
 
 .circle-right p {
@@ -256,41 +358,31 @@ p {
     width: auto;
 } 
 
-.image-text-l-2 {
-    display: flex;
-    flex-direction: row;
+.partners {
+    text-align: center;
+    margin: 8em 0 0 0;
 }
 
-.image-text-l-right-2 {
-    width: 50%;
+.partner {
+    width: 15vh;
+    height: 20h;
+    display: inline-block;
+    margin: 1em 2em;
 }
 
-.image-text-l-left-2 {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    padding: 10em 0;
+.partner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
-
-.image-text-l-left-2 p {
-    margin: 2em 0 0 0;
-    width: 80%;
-}
-
-.image-text-l-left-2 .button {
-    margin: 2em 0 0 0;
-}
-
-.image-text-l-left-2 .button p {
-    margin: 0;
-    width: auto;
-} 
 
 .book {
     background-color: #325682;
     padding: 5em 0;
     display: flex;
     flex-direction: row;
+    margin: 4em 0 0 0;
 }
 
 .book-left {
