@@ -242,14 +242,48 @@ p {
 }
 
 .card {
-    background-color: #325682;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
     margin: 0 0 4em 0;
     width: 60%;
     padding: 2em;
-    height: 16vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#card-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/sports.jpg);
+}
+
+#card-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/physio.jpg);
+}
+
+#card-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/pilates.jpg);
+}
+
+#card-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/injury.jpg);
+}
+
+#card-5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/massage.jpg);
+}
+
+#card-6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/dry.jpg);
+}
+
+#card-7 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hydro.jpg);
+}
+
+#card-8 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/running.jpg);
 }
 
 .card h3 {
@@ -274,11 +308,11 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .image-text-r-left-content {
     width: 70%;
+    padding: 0 0 0 3em;
 }
 
 .image-text-r-left p {
@@ -320,7 +354,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 0 2.4em 2em;
+    margin: 0 0 2.4em 3em;
 }
 
 .circle-card h2 {
@@ -328,8 +362,8 @@ p {
 }
 
 .circle-card img {
-    height: 16vh;
-    width: 16vh;
+    height: 20vh;
+    width: 20vh;
     border-radius: 50%;
 }
 
@@ -364,10 +398,9 @@ p {
 }
 
 .partner {
-    width: 15vh;
-    height: 20h;
+    width: 8vw;
     display: inline-block;
-    margin: 1em 2em;
+    margin: 1em 3em;
 }
 
 .partner img {
@@ -382,6 +415,7 @@ p {
     padding: 5em 0;
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: 4em 0 0 0;
 }
 
@@ -404,11 +438,21 @@ p {
 .footer {
     display: flex;
     flex-direction: row;
-    margin: 3em 0;
+    justify-content: space-between;
+    margin: 3em 0 1em 0;
+}
+
+.footer a {
+    color: #325682;
+    text-decoration: none;
+}
+
+.footer p {
+    margin: 1.4em 0;
 }
 
 .footer-logo {
-    height: 12vh;
+    width: 26vw;
 }
 
 .footer-logo img {
@@ -416,4 +460,274 @@ p {
     height: 100%;
     object-fit: cover;
     overflow: hidden;
+}
+
+.footer-middle {
+    width: 10%;
+}
+
+.footer-right {
+    width: 30%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .book-right {
+        width: 70%;
+        margin: 0 1.4em 0 0;
+    }
+}
+
+
+@media only screen and (max-width: 846px) {
+    .hero {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .hero-left {
+        width: 100%;
+        padding: 0 2em;
+    }
+
+    .hero-right {
+        width: 100%;
+        height: 70vh;
+        margin: 3em 0 0 0;
+    }
+
+    .colour-block h2 {
+        width: 70%;
+    }
+
+    .colour-block p {
+        width: 70%;
+    }
+
+    .centre-text p {
+        width: 80%;
+    }
+
+    .card-column-left {
+        padding: 0;
+    }
+
+    .card-column-right {
+        padding: 0;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .image-text-r {
+        margin: 4em 0 0 0;
+    }
+
+    .image-text-r-left-content {
+        width: 80%;
+        padding: 0 0 0 1em;
+    }
+
+    .circle-cards {
+        justify-content: space-between;
+    }
+    
+    .circle-card {
+        margin: 0 0 2em 0em;
+    }
+
+    .circle-left {
+        width: 45%;
+    }
+
+    .circle-right {
+        width: 45%;
+    }
+
+    .image-text-r {
+        margin: 8em 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-logo {
+        height: 10vh;
+    }
+    
+    .nav-links a {
+        font-size: 1.2em;
+        margin: 0 0 0 1.6em;
+    }
+    
+    section {
+        padding: 0 3em;
+    }
+    
+    .circle-right {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .nav-logo {
+        height: 8vh;
+    }
+    
+    .nav-links a {
+        font-size: 1.1em;
+        margin: 0 0 0 1.4em;
+    }
+    
+    .colour-block p {
+        width: 80%;
+    }
+
+    .colour-block h2 {
+        width: 80%;
+    }
+
+    .hero-right {
+        height: 60vh;
+    }
+
+    .circle-card {
+        overflow-wrap: break-word;
+    }
+    
+    .circle-card img {
+        height: 15vh;
+        width: 15vh;
+    }
+
+    .circle-card h2 {
+        font-size: 1.6em;
+    }
+
+    .book-left {
+        width: 30%;
+    }
+
+    .book-right {
+        width: 70%;
+    }
+
+    .book-left .button {
+        margin: 0 0 0 2em;
+    }
+
+    .footer-middle {
+        width: 15%;
+    }
+
+    .footer-right {
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .nav-logo {
+        height: 6vh;
+    }
+    
+    .nav-links a {
+        font-size: 0.8em;
+        margin: 0 0 0 1em;
+    }
+    
+    .image-text-l {
+        flex-direction: column;
+    }
+
+    .image-text-l-left {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .image-text-l-right {
+        width: 100%;
+        margin: 4em 0 0 0;
+    }
+
+    .card-section {
+        flex-direction: column;
+    }
+
+    .card-column-left {
+        width: 100%;
+    }
+
+    .card-column-right {
+        width: 100%;
+    }
+
+    .image-text-r {
+        flex-direction: column;
+        margin: 4em 0 0 0;
+    }
+
+    .image-text-r-left {
+        width: 100%;
+    }
+
+    .image-text-r-right {
+        width: 100%;
+        margin: 4em 0 0 0;
+    }
+
+    .circle-cards {
+        flex-direction: column;
+    }
+
+    .circle-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .circle-right {
+        width: 100%;
+        margin: 4em 0 0 0;
+    }
+
+    .partner {
+        width: 14vw;
+    }
+
+    .book {
+        flex-direction: column;
+    }
+
+    .book-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-left .button {
+        margin: 0;
+    }
+
+    .book-right {
+        width: 100%;
+    }
+
+    .book-right h2 {
+        width: 80%;
+        margin: 2em 2em 0 2em;
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-middle {
+        margin: 2em 0 0 0;
+    }
+
+    .footer-right {
+        margin: 2em 0 0 0;
+    }
 }

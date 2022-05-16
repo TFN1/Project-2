@@ -60,7 +60,7 @@ image-text-r:
     image: "../../assets/images/knee.jpg"
     imagealt: ""
     heading: "Our passion"
-    para: "Lorem"
+    para: "At Performance Edge Physio, we are not just about the treatment of symptoms, we are committed to interventions that  identify the cause of your injury. Once  identified we will prescribe  appropriate treatment and rehabilitation program, which may include a combination of hands on treatment such as mobilisation/manipulation, soft tissue mobilisation, movement control retraining, specific rehabilitation and importantly a home exercise program."
     button: "Book now"
 
 circle-card:
@@ -74,7 +74,7 @@ circle-card:
 circle-right:
     smallheading: "Locations"
     heading: "3 convenient locations"
-    para: "Lorem"
+    para: "We have 3 conveniently located clinics, located in Tuggeranong, Belconnen and Brindabella Park each with easy parking and in close proximity to major shopping centres and amenities."
     button: "Book now"
 
 partners:
@@ -88,13 +88,12 @@ partners:
     p8: "../../assets/images/p6.jpg"
     p9: "../../assets/images/p9.png"
     p10: "../../assets/images/p11.png"
-    p11: "../../assets/images/p7.png"
 
 image-text-r-2:
     image: "../../assets/images/team.jpg"
     imagealt: ""
     heading: "Our Team"
-    para: "Lorem"
+    para: "Over the years Performance Edge Physiotherapy has grown and assembled a committed and dynamic team of Physiotherapists and administration staff. Experience and an ongoing commitment to professional development, including regular internal inservices, means our team is able to specialise in a wide range of areas to help manage your specific needs."
     button: "Meet our team"
 
 book:
