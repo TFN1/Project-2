@@ -1,28 +1,13 @@
-# 11056-project2
+# Reflection
 
-## 11056 Project 2 Starter
+## Tom Neill u3203195
 
-This is repo containing everything you need to start Project 2. All you need to do is clone this repository to your computer and start editing...
+For my project 2: Outside the grid I decided to redesign the Canberra based; Performance Edge Physio website. My process included research into the business, design of the site, development of the desktop site and then making it responsive.
 
-Make sure you refer to Canvas for more info.
+The design is relatively simple, I just wanted to simplify and strengthen the existing site's content.
 
-## Install Elventy
-From Terminal, navigate to the folder you saved the repository in:
+This was the first time I have used a static site generator to develop a website and found it an interesting challenge beyond ‘normal’ coding. Understandably, I can see the benefits of this style as a site gets bigger however at first I found it more complicated to split the content and code into these different sections.
 
-Type `npm create`
+I managed to get some work flow going between the layout and markdown files through headings, paragraphs and links. The biggest challenge I found was trying to create multiple pages and linking these up through the file structure; something to look into as I'm sure I was just missing something simple.
 
-or, if that doesn't work: `npm install --save-dev @11ty/eleventy`
-
-## Test your site
-
-Open Terminal and type: `npm start`
-
-This will create a local server to test the website.
-
-Go to: http://localhost:8080 to view your site
-
-## Build the site
-
-Run `npm build`
-
-Open up your site folder and you'll discover a folder within it called `final-website` this is where your actual site files are located. 
+Despite this challenge I believe this project shows a basic understanding and execution of a responsive website using a front-end framework.

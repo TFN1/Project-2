@@ -8,7 +8,7 @@ nav:
     image: "../../assets/images/logo-black.png"
     imagelink: "../../index.md"
     imagealt: "Logo"
-    linkone: "Our Team"
+    linkone: "The Team"
     linktwo: "Book Online"
     linkthree: "Reflection"
 
